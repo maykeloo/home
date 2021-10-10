@@ -26,10 +26,10 @@ const Works = () => {
                     </SectionTitle>
                     <Year>2021</Year>
                 </TitleBar>
-                    <Route path = '/home' exact component = {() => <WeatherAppInfo/>}/>
+                    <Route path = '/' exact component = {() => <WeatherAppInfo/>}/>
                     <Route path = '/comming_soon' component = {() => <CommingSoon/>}/>
                 <Image>
-                    <Route path = '/home' exact component = {WeatherImage}/>
+                    <Route path = '/' exact component = {WeatherImage}/>
                     <Route path = '/comming_soon' component = {CommingSoonDiv}/>
                 </Image>
             </WorksContent>

@@ -4,7 +4,7 @@ import { AppTextBar, AppNameTag, AppName, ArrowBar, Arrow, AppInfo, AppInfoText,
 const WeatherAppInfo = () => {
     return (
         <>     
-                <AppNameTag to = '/comming_soon' >
+                <AppNameTag to = 'comming_soon' >
                     <AppName data-aos = 'fade-left'>
                         Weather App
                     </AppName>
