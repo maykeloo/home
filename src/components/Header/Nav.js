@@ -1,10 +1,10 @@
 import React from 'react'
-import { HeaderNav, HeaderItem, HeaderLink } from './HeaderElements'
+import { HeaderNav, HeaderItem, HeaderLink} from './HeaderElements'
 
 const Nav = () => {
     return (
         <>
-            <HeaderNav data-aos = 'fade-left'>
+            <HeaderNav data-aos = 'fade-left' id = 'home'>
                             <HeaderItem>
                                 <HeaderLink 
                                     activeClass="active"
@@ -19,16 +19,31 @@ const Nav = () => {
                             </HeaderItem>
 
                             <HeaderItem>
-                                <HeaderLink>
+                                <HeaderLink 
+                                
+                                activeClass="active"
+                                to="works"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={2000} >
                                     works
                                 </HeaderLink>
                             </HeaderItem>
 
                             <HeaderItem>
-                                <HeaderLink>
+                                <HeaderLink
+                                
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-240}
+                                duration={2500} >
                                     contact
                                 </HeaderLink>
                             </HeaderItem>
+                            
                     </HeaderNav>
         </>
     )

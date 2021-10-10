@@ -50,7 +50,8 @@ export const Quote = styled(MdOutlineFormatQuote)`
     right: 60px;
 
     @media screen and (max-width: 920px) {
-        font-size: 10em;
+        font-size: 7em;
         z-index: -1;
     }
 `
+

@@ -10,11 +10,12 @@ const Section1 = () => {
           <SectionContent>
               <Parallax y={[-100, 100]}>
                 <SectionText>
-                   The most important consideration we had was that I needed to have something different. I didn't want to settle for a generic template. I wanted users to take a trip, to see how things are now and what the user experiance will be like from today.
+                The most important thought I had was that I must have something else. I didn't want to be content with the general template. <br /> I wanted users to take a trip to see what it is like now and what the user experience will be from today.
                     </SectionText>
                     <Quote/>
                 </Parallax>
             </SectionContent> 
+            
         </>
     )
 }

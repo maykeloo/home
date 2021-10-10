@@ -13,7 +13,7 @@ export const Header = ({toggle}) => {
 
     return (
         <>
-            <HeaderContent className = 'header'>
+            <HeaderContent className = 'header' >
                 <BackgroundVideo muted autoPlay = 'true' loop = 'true'>
                     <source src = {tv}/>
                 </BackgroundVideo>

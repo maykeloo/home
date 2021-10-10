@@ -166,6 +166,11 @@ export const HeaderTitles = styled.div`
         width: 70%;
         border-bottom: 0;
     }
+
+    @media screen and (max-width: 1300px) {
+        padding-bottom: 60px;
+    }
+
 `
 
 export const HeaderTitle = styled.h1`
@@ -180,6 +185,10 @@ export const HeaderTitle = styled.h1`
         margin-top: 100px;
         font-size: 2.5em;
         font-family: 'Playfair Display', serif;
+    }
+
+    @media screen and (max-width: 1300px) {
+        height: 200px;
     }
 `
 export const HeaderText = styled.p`
@@ -216,8 +225,11 @@ export const HeaderAbout = styled(LinkS)`
     @media screen and (max-width: 920px) {
         display: none;
     }
-`
 
+    @media screen and (max-width: 1300px) {
+        width: 200px;
+    }
+`
 
 export const AboutArrow = styled(MdKeyboardArrowRight)`
     background-color: ${color};
@@ -229,6 +241,10 @@ export const AboutText = styled.span`
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+
+    @media screen and (max-width: 1300px) {
+        font-size: 25px;
+    }
 `
 
 export const Menu = styled(HiMenuAlt2)`

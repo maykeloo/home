@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
-import { AboutCont, AboutContent, AboutLeft, Touch, AboutRight, AboutText, BackgroundVideo, Hello, Me, ProfileImage, Techno, Technologies, Technology, TitleAbout, WelcomeHead, LittleContact, Mail, Phone, AboutLeftText } from './About'
+import { AboutCont, AboutContent,  AboutLeft, Touch, AboutRight, AboutText,  Hello, Me, ProfileImage, Techno, Technologies, Technology, TitleAbout, WelcomeHead, LittleContact, Mail, Phone, AboutLeftText } from './About'
 import {Parallax} from 'react-scroll-parallax';
-import dron from '../../video/dron.mp4'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import image from '../../images/image.jpg'
@@ -10,12 +9,13 @@ const About = () => {
 
     const Technolo = ['JavaScript', 'React Native', 'Redux', 'GIT', 'JSON','SASS', 'CSS3 & HTML5', 'Styled Components', 'Rest API']
 
-    const showTech = Technolo.map(tech => {return <Technology>{tech}</Technology>})
+    const showTech = Technolo.map(tech => {return <Technology>{tech} /</Technology>})
     useEffect(() => {
         Aos.init({duration: 2000});
     }, [])
     return (
         <>
+
             <AboutContent id = 'about'>
                 <TitleAbout>
                     About
@@ -67,9 +67,7 @@ const About = () => {
                     </Phone>
                     </LittleContact>
                 </AboutRight>
-            </AboutCont>
-
-                
+            </AboutCont>  
             </AboutContent>
         </>
     )

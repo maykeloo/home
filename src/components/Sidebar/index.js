@@ -12,20 +12,36 @@ const Sidebar = ({isOpen, toggle}) => {
                         <Link to = 'home'>Home</Link>    
                     </SidebarItem> 
                     
-                    <SidebarItem onClick = {toggle} to = 'about'>
+                    <SidebarItem onClick = {toggle} 
+                    to = 'about'
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={200}
+                    duration={1500} 
+                    >
                         <Link to = 'home'>About</Link>    
                     </SidebarItem> 
 
-                    <SidebarItem onClick = {toggle} to = 'services'>
-                         <Link to = 'home'>Services</Link>    
+                    <SidebarItem onClick = {toggle} 
+                    
+                    activeClass="active"
+                    to="works"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={1500} >
+                         <Link to = 'home'>Works</Link>    
                     </SidebarItem> 
 
-                    <SidebarItem onClick = {toggle} to = 'portfolio'>
-                    <Link to = 'home'>Portfolio</Link>    
-   
-                    </SidebarItem> 
-
-                    <SidebarItem onClick = {toggle} to = 'contact'>
+                    <SidebarItem onClick = {toggle} 
+                    
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={200}
+                    duration={2500} >
                     <Link to = 'home'>Contact</Link>    
                     </SidebarItem> 
 
