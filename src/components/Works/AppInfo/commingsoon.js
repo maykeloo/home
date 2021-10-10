@@ -4,7 +4,7 @@ import { AppTextBar, AppNameTag, AppName, ArrowBar, Arrow, AppInfo, AppInfoText,
 const CommingSoon = () => {
     return (
         <>     
-                <AppNameTag to = '/'>
+                <AppNameTag to = '/home'>
                     <AppName data-aos = 'fade-left'>
                         Comming soon
                     </AppName>

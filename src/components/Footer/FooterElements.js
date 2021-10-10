@@ -94,6 +94,7 @@ export const FooterTitle = styled.h3`
 
     @media screen and (max-width: 920px) {
        font-size: 2em;
+    }
 ` 
 
 export const LittleContact = styled.div`
