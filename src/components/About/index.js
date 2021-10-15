@@ -23,8 +23,6 @@ const About = () => {
                 <Parallax x={[-100, 1]}>
                 <Me/>
                 </Parallax>
-                
-                <Hello>HELLO THERE</Hello>
 
                 <WelcomeHead>
                 <AboutText>
@@ -50,9 +48,6 @@ const About = () => {
                 </AboutLeft> 
 
                 <AboutRight>
-                    <Hello>
-                        MY LITTLE ONES
-                    </Hello>
                     <Techno>Technologies</Techno>
                     <Technologies>{showTech}</Technologies>
                     <LittleContact>

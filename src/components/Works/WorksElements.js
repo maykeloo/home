@@ -32,6 +32,10 @@ export const WorksContent = styled.section`
     @media screen and (max-width: 920px) {
         margin-top: 150vh;
     }
+
+    @media screen and (max-width: 1500px) {
+        margin-top: 160vh;
+    }
 `
 
 export const TitleBar = styled.div`
@@ -50,7 +54,8 @@ export const SectionTitle = styled.h3`
     color: ${color};
     font-size: 70px;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
 
     @media screen and (max-width: 920px) {
         font-size: 30px;
@@ -58,7 +63,7 @@ export const SectionTitle = styled.h3`
 `
 
 export const Year = styled.span`
-    font-family: 'Inter', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-weight: bold;
     font-size: 20px;
     position: relative;
@@ -116,13 +121,13 @@ export const AppInfo = styled.div`
 `
 
 export const AppTextBar = styled.div`
-    width: 100%;
+    width: 110%;
     height: 70%;
     margin-top: 10px;
 `
 
 export const AppInfoText = styled.span`
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-size: 22px;   
 `
 

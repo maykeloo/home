@@ -115,7 +115,7 @@ export const StayInTouch = styled.span`
 
 export const LittleContactInfo = styled.p`
     font-size: 22px;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     color: white;
 
     @media screen and (max-width: 920px) {
@@ -135,8 +135,8 @@ export const FooterLinks = styled(Link)`
         margin-left: 20px;
     }
 
-    @media screen and (max-width: 1300px) {
-        font-size: 25px;
+    @media screen and (max-width: 1500px) {
+        font-size: 20px;
     }
 `
 
@@ -175,7 +175,7 @@ export const ScrollTop = styled(LinkS)`
     color: black;
     padding: 20px 30px;
     font-weight: bold;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     text-decoration: none;
     cursor: pointer;
 
@@ -186,9 +186,9 @@ export const ScrollTop = styled(LinkS)`
     }
 
     
-    @media screen and (max-width: 1300px) {
-        bottom: 240px;
+    @media screen and (max-width: 1500px) {
+        bottom: 50px;
         right: 40px;
-        padding: 10px 25px;
+        padding: 5px 15px;
     }
     `

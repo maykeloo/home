@@ -103,7 +103,7 @@ export const HeaderNav = styled.nav`
 export const HeaderItem = styled(LinkS)`
     font-size: 30px;
     font-weight: bold;
-    font-family: "Inter", sans-serif;
+    font-family: "Playfair Display", serif;
     padding: 10px 20px;
     border: 3px solid transparent;
     position: relative;
@@ -153,22 +153,23 @@ export const HeaderLinkR = styled(LinkR)`
 `
 
 export const HeaderTitles = styled.div`
-    bottom: 15%;
+    bottom: 35%;
     left: 15%;
     position: absolute;
     width: 50%;
-    height: 400px;
+    height: 50%;
     z-index: 20;
     border-bottom: 3px solid white;
     padding-bottom: 30px;
+    top: 250px;
 
     @media screen and (max-width: 920px) {
-        width: 70%;
-        border-bottom: 0;
+        width: 80vw;
+        border: 0;
     }
 
-    @media screen and (max-width: 1300px) {
-        padding-bottom: 60px;
+    @media screen and (max-width: 1500px) {
+        height: 30%;
     }
 
 `
@@ -176,32 +177,38 @@ export const HeaderTitles = styled.div`
 export const HeaderTitle = styled.h1`
     color: white;
     font-size: 4em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', serif;
     height: 160px;
     user-select:none;
 
     @media screen and (max-width: 920px) {
         height: 100px;
-        margin-top: 100px;
-        font-size: 2.5em;
-        font-family: 'Playfair Display', serif;
+        font-size: 1em;
+        font-family: 'Raleway', serif;
     }
 
-    @media screen and (max-width: 1300px) {
-        height: 200px;
+    @media screen and (max-width: 1500px) {
+        height: 100px;
+        font-size: 2.3em;
+        font-family: 'Raleway', serif;
     }
 `
 export const HeaderText = styled.p`
     color: white;
     width: 100%;
-    font-size: 40px;
-    font-family: 'Roboto Mono', serif;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
     line-height: 30px;
     letter-spacing: 2px;
     user-select:none;
 
     @media screen and (max-width: 920px) {
         display:none;
+    }
+
+    @media screen and (max-width: 1500px) {
+        font-size: 20px;
     }
 `
 
@@ -226,7 +233,7 @@ export const HeaderAbout = styled(LinkS)`
         display: none;
     }
 
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1500px) {
         width: 200px;
     }
 `
@@ -238,11 +245,10 @@ export const AboutArrow = styled(MdKeyboardArrowRight)`
 
 export const AboutText = styled.span`
     color: white;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Space Mono', serif;
     font-size: 18px;
 
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1500px) {
         font-size: 25px;
     }
 `

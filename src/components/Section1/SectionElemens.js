@@ -19,17 +19,17 @@ export const SectionContent = styled.section`
 
 export const SectionText = styled.blockquote`
     position: relative;
-    width: 60%;
+    width: 70%;
     font-size: 30px;
     letter-spacing: 2px;
-    line-height: 40px;
+    line-height: 50px;
     margin: 0 auto;
     overflow-y: hidden;
     padding: 100px;
-    border: 5px solid black;
     color: white;
     font-weight: 300;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Domine', sans-serif;
+
 
     @media screen and (max-width: 920px) {
         font-size: 20px;
@@ -39,17 +39,29 @@ export const SectionText = styled.blockquote`
         font-weight: 400;
     }
 
+    @media screen and (max-width: 1500px) {
+        font-size: 25px;
+        width: 80%;
+        border: 0;
+        padding: 0;
+        font-weight: 400;
+    }
 `
 
 export const Quote = styled(MdOutlineFormatQuote)`
     position: absolute;
-    font-size: 15em;
+    font-size: 10em;
     color: white;
     z-index: 20;
-    bottom: -100px;
-    right: 60px;
+    bottom: -50px;
+    right: 150px;
 
     @media screen and (max-width: 920px) {
+        font-size: 7em;
+        z-index: -1;
+    }
+
+    @media screen and (max-width: 1500px) {
         font-size: 7em;
         z-index: -1;
     }

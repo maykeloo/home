@@ -44,8 +44,8 @@ export const MainServiceRight = styled.div`
 
 export const MainLeftTitle = styled.h2`
     color: ${color};
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
     user-select:none;
 `
 
@@ -54,8 +54,8 @@ export const MainLeftText = styled.p`
     width: 110%;
     letter-spacing: 1px;
     line-height: 50px;
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
     user-select:none;
     transition: letter-spacing;
     transition-duration: 0.5s;
@@ -71,7 +71,7 @@ export const MainLeftText = styled.p`
 `
 export const YearOnMain = styled.span`
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     position: relative;
     font-size: 18px;
     margin-top: 50px;

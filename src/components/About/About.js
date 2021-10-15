@@ -25,7 +25,7 @@ export const BackgroundVideo = styled.video`
 export const TitleAbout = styled.h2`
     color: ${color};
     font-size: 70px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 `
 
 export const Me = styled(SiAboutdotme)`
@@ -47,7 +47,10 @@ export const AboutText = styled.p`
 
     @media screen and (max-width: 920px) {
          font-size: 18px;
-         font-family: 'Roboto Mono', sans-serif;
+     }
+
+     @media screen and (max-width: 1500px) {
+         font-size: 45px;
      }
 `
 
@@ -69,12 +72,6 @@ export const WelcomeHead = styled.div`
      }
 `
 
-export const Hello = styled.span`
-    font-family: 'Roboto Mono', sans-serif;
-    margin-top: 200px;
-    color: gray;
-`
-
 export const ProfileImage = styled.img`
     width: 450px;
     position: absolute;
@@ -87,6 +84,11 @@ export const ProfileImage = styled.img`
          width: 200px;
          height: 250px;
          position: static;
+     }
+
+     @media screen and (max-width: 1500px) {
+         width: 350px;
+         height: 350px;
      }
 `
 
@@ -142,7 +144,7 @@ export const Technologies = styled.div`
 `
 
 export const Techno = styled.h3`
-    font-family: 'Playfair Display';
+    font-family: 'Space Mono';
     font-weight: lighter;
     font-size: 40px;
     justify-self: flex-end;
@@ -150,8 +152,7 @@ export const Techno = styled.h3`
 
 export const Technology = styled.span`
     font-weight: normal;
-    font-style: italic;
-    font-family: 'Roboto Mono', serif;
+    font-family: 'Raleway', serif;
     margin-top: 10px;
 
 `
@@ -161,19 +162,21 @@ display: flex;
 flex-direction: column;
 `
 export const Touch = styled.span`
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: gray;
 `
 
 export const Mail = styled.span`
     margin-top: 40px;
     color: gray;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 1px;
 `
 
 export const Phone = styled.span`
     margin-top: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 1px;
 
     
     @media screen and (max-width: 920px) {
@@ -183,8 +186,10 @@ export const Phone = styled.span`
 `
 export const AboutLeftText = styled.p`
     font-size: 30px;
+    line-height: 40px;
+    font-weight: lighter;
     width: 80%;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Domine', sans-serif;
 
     @media screen and (max-width: 920px) {
          font-size: 16px;

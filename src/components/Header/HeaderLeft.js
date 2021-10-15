@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import { HeaderTitles,HeaderAbout, AboutArrow, ArrowDown, AboutText,HeaderTitle, HeaderText, ScrollDown, HeaderLink } from './HeaderElements'
+import { HeaderTitles,HeaderAbout, AboutArrow, AboutText, HeaderTitle, HeaderText,  HeaderLink } from './HeaderElements'
 
 const HeaderLeft = () => {
     return (
@@ -31,9 +31,6 @@ const HeaderLeft = () => {
                         <AboutText>about me</AboutText>
                     </HeaderAbout >
                     <HeaderLink>
-                    <ScrollDown>
-                        <ArrowDown/>
-                    </ScrollDown>
                     </HeaderLink>
                 </HeaderTitles>
         </>
