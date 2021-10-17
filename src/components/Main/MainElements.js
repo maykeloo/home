@@ -51,7 +51,7 @@ export const MainLeftTitle = styled.h2`
 
 export const MainLeftText = styled.p`
     position: relative;
-    width: 110%;
+    width: 130%;
     letter-spacing: 1px;
     line-height: 50px;
     font-family: 'Raleway', sans-serif;
@@ -68,6 +68,7 @@ export const MainLeftText = styled.p`
         line-height: 1em;
         width: 80vw;
     }
+    
 `
 export const YearOnMain = styled.span`
     font-weight: bold;

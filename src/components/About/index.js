@@ -18,7 +18,7 @@ const About = () => {
 
             <AboutContent id = 'about'>
                 <TitleAbout>
-                    Aboutt
+                    About
                 </TitleAbout>
                 <Parallax x={[-100, 1]}>
                 <Me/>

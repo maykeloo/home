@@ -17,7 +17,7 @@ export const SidebarContent = styled.aside`
     z-index: 999;
     transition: 0.3s ease-in-out;
     display: block;
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    top: ${({ isOpen }) => (isOpen ? '0' : '-150%')};
     }
 `
 

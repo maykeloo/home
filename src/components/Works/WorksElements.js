@@ -29,12 +29,14 @@ export const WorksContent = styled.section`
     flex-direction: column;
     align-items: center;
 
-    @media screen and (max-width: 920px) {
-        margin-top: 150vh;
-    }
 
     @media screen and (max-width: 1500px) {
-        margin-top: 160vh;
+        margin-top: 90vh;
+        height: 80vh;
+    }
+    @media screen and (max-width: 920px) {
+        margin-top: 150vh;
+        height: 160vh;
     }
 `
 
@@ -179,6 +181,10 @@ export const Image = styled.div`
 
     @media screen and (max-width: 920px) {
         margin-top: 500px;
+    }
+
+    @media screen and (max-width: 1500px){
+        height: 30%;
     }
 `
 

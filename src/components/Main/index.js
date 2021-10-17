@@ -19,7 +19,7 @@ const Main = () => {
             <MainContent>
                 <MainServices>
                     <MainServiceLeft>
-                            <Parallax x={[-40, 10]} >
+                            <Parallax x={[-40, 0]} >
                             <MainLeftTitle>
                                 Services
                             </MainLeftTitle>

@@ -11,9 +11,16 @@ export const SectionContent = styled.section`
     align-items: center;
     overflow-y: hidden;
     position: relative;
+
+
+    @media screen and (max-width: 1500px) {
+        height: 30vh;
+    }
+    
     @media screen and (max-width: 920px) {
         width: 100%;
         align-items: flex-start;
+        height: 70vh;
     }
 `
 
@@ -32,15 +39,17 @@ export const SectionText = styled.blockquote`
 
 
     @media screen and (max-width: 920px) {
-        font-size: 20px;
+        font-size: 15px;
         width: 80%;
         border: 0;
         padding: 0;
         font-weight: 400;
+        letter-spacing: 0;
+        line-height: 2em;
     }
 
     @media screen and (max-width: 1500px) {
-        font-size: 25px;
+        font-size: 18px;
         width: 80%;
         border: 0;
         padding: 0;
@@ -57,12 +66,12 @@ export const Quote = styled(MdOutlineFormatQuote)`
     right: 150px;
 
     @media screen and (max-width: 920px) {
-        font-size: 7em;
+        font-size: 2em;
         z-index: -1;
     }
 
     @media screen and (max-width: 1500px) {
-        font-size: 7em;
+        font-size: 5em;
         z-index: -1;
     }
 `

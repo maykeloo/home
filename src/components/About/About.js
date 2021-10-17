@@ -14,6 +14,7 @@ export const AboutContent = styled.div`
     @media screen and (max-width: 920px) {
          margin-top: 0;
         }
+
 `
 
 export const BackgroundVideo = styled.video`
@@ -45,12 +46,12 @@ export const AboutText = styled.p`
     font-size: 60px;
     position: relative;
 
-    @media screen and (max-width: 920px) {
-         font-size: 18px;
-     }
-
      @media screen and (max-width: 1500px) {
          font-size: 45px;
+     }
+
+     @media screen and (max-width: 920px) {
+         font-size: 25px;
      }
 `
 
@@ -80,15 +81,14 @@ export const ProfileImage = styled.img`
     z-index: -1;
     right: 20.5%;
 
-    @media screen and (max-width: 920px) {
-         width: 200px;
-         height: 250px;
-         position: static;
-     }
+
 
      @media screen and (max-width: 1500px) {
          width: 350px;
          height: 350px;
+     }    
+     @media screen and (max-width: 920px) {
+        display: none;
      }
 `
 
@@ -106,6 +106,8 @@ export const AboutCont = styled.div`
          margin-top: -300px;
          flex-direction: column;
      }
+
+
 `
 
 export const AboutLeft = styled.section`
@@ -195,6 +197,6 @@ export const AboutLeftText = styled.p`
     @media screen and (max-width: 920px) {
          font-size: 16px;
          width: 100%;
-         margin-top: 200px;
+         margin-top: -100px;
         }
 `
