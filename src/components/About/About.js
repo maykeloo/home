@@ -66,7 +66,7 @@ export const WelcomeHead = styled.div`
      @media screen and (max-width: 920px) {
          overflow-y: hidden;
          flex-direction: column;
-         height: 500px;
+         height: 100vh;
          width: 100%;
          overflow: hidden;
      }
@@ -103,7 +103,7 @@ export const AboutCont = styled.div`
     
 
     @media screen and (max-width: 920px) {
-         margin-top: 0;
+         margin-top: -300px;
          flex-direction: column;
      }
 `
@@ -129,6 +129,7 @@ export const AboutRight = styled.section`
     @media screen and (max-width: 920px) {
         height: 20%;
         margin-left: -30px;
+        margin-top: 300px;
     }
 `
 export const Technologies = styled.div`
@@ -194,6 +195,6 @@ export const AboutLeftText = styled.p`
     @media screen and (max-width: 920px) {
          font-size: 16px;
          width: 100%;
-
+         margin-top: 200px;
         }
 `

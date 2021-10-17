@@ -22,7 +22,7 @@ const swap = keyframes`
 
 export const WorksContent = styled.section`
     width: 60vw;
-    height: 130vh;
+    height: 170vh;
     margin: 0 auto;
     margin-top: 120vh;
     display: flex;
@@ -178,7 +178,7 @@ export const Image = styled.div`
     height: 60%;
 
     @media screen and (max-width: 920px) {
-        margin-top: 200px;
+        margin-top: 500px;
     }
 `
 
